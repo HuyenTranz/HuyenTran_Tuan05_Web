@@ -1,6 +1,7 @@
 * {
     padding: 0px;
     margin: 0px;
+    font-family: 'Sarabun', sans-serif;
 }
 
 #container {
@@ -11,12 +12,18 @@
     /* background-color: bisque; */
 }
 
+
+/* Header */
+
 #header {
     grid-row: 1/2;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
+
+
+/* Phan ben trai */
 
 #header .header--left {
     width: 600px;
@@ -46,6 +53,9 @@
     box-sizing: border-box;
 }
 
+
+/* Phan ben phai */
+
 #header .header--right {
     width: 550px;
     display: flex;
@@ -73,4 +83,40 @@
     display: flex;
     justify-content: space-between;
     align-items: flex-end;
+}
+
+
+/* Phan footer */
+
+#footer {
+    grid-row: 3/4;
+}
+
+
+/* Phan logo */
+
+#footer .footer--logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer--logo .logo {
+    width: 150px;
+    height: 50px;
+}
+
+
+/* Phan chu Subscribe to our newsletter */
+
+.footer--logo .subscribe {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 40px;
+}
+
+.subscribe .text {
+    font-size: 24px;
+    font-weight: bold;
 }
