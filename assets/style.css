@@ -7,8 +7,8 @@
     width: 1440px;
     height: 2680px;
     display: grid;
-    grid-template-rows: 60px 140px;
-    background-color: bisque;
+    grid-template-rows: 60px auto 560px;
+    /* background-color: bisque; */
 }
 
 #header {
@@ -38,6 +38,12 @@
     display: inline-block;
     line-height: 60px;
     padding: 0px 10px;
+}
+
+.left--menu li:hover {
+    color: #00bdd6;
+    border-bottom: 4px solid #00bdd6;
+    box-sizing: border-box;
 }
 
 #header .header--right {
