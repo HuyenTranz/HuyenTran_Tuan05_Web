@@ -94,7 +94,6 @@
 
 
 /* Phan logo */
-
 #footer .footer--logo {
     display: flex;
     justify-content: center;
@@ -108,15 +107,100 @@
 
 
 /* Phan chu Subscribe to our newsletter */
-
-.footer--logo .subscribe {
+.footer--subscribe{
     display: flex;
     justify-content: center;
     align-items: center;
     padding-top: 40px;
 }
 
-.subscribe .text {
+.footer--subscribe .text{
     font-size: 24px;
     font-weight: bold;
+    line-height: 24px;
+}
+
+/* Phan email */
+.footer--email{
+    display: flex;
+    justify-content: center;
+    padding-top: 25px;
+}
+
+.footer--email .footer--email--mail{
+    background-color: rgb(224, 224, 224, 0.5);
+    padding-left: 10px;
+    border-radius: 4px 0px 0px 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer--email--mail .txtEmail{
+    width: 260px;
+    padding: 10px;
+    border: none;
+    background-color: rgba(224, 224, 224, 0.1);
+    outline: none;
+}
+
+.footer--email .btSub{
+    padding: 10px;
+    border-width: 110px;
+    background-color: #25BEB6;
+    border: none;
+    border-radius: 0px 4px 4px 0px;
+    color: #ffff;
+}
+
+.footer--menu{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding-top: 90px;
+}
+
+.footer--menu .menu{
+    list-style-type: none;
+    padding-left: 88px;
+}
+
+.menu .menu--title{
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 24px;
+    padding-bottom: 30px;
+}
+
+.menu .menu--list{
+    font-size: 16px;
+    line-height: 16px;
+    padding-bottom: 30px;
+}
+
+.footer--contact{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 70px;
+    padding-left: 130px;
+    padding-right: 130px;
+}
+
+.footer--contact .contact--english{
+    border: none;
+    background-color: rgba(224, 224, 224, 0.5);
+    padding: 10px;
+    width: 120px;
+    border-radius: 4px;
+}
+
+.footer--contact .contact--text{
+    color: rgb(153,158,168);
+}
+
+.footer--contact .contact--picture{
+    width: 150px;
+    display: flex;
+    justify-content: space-around;
 }
