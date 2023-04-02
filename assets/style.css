@@ -14,7 +14,6 @@
 
 
 /* Header */
-
 #header {
     grid-row: 1/2;
     display: flex;
@@ -24,7 +23,6 @@
 
 
 /* Phan ben trai */
-
 #header .header--left {
     width: 600px;
     display: flex;
@@ -55,7 +53,6 @@
 
 
 /* Phan ben phai */
-
 #header .header--right {
     width: 550px;
     display: flex;
@@ -87,7 +84,6 @@
 
 
 /* Phan footer */
-
 #footer {
     grid-row: 3/4;
 }
@@ -153,6 +149,7 @@
     color: #ffff;
 }
 
+/* Phan thong tin */
 .footer--menu{
     display: flex;
     justify-content: center;
@@ -178,6 +175,7 @@
     padding-bottom: 30px;
 }
 
+/* contact */
 .footer--contact{
     display: flex;
     justify-content: space-between;
@@ -203,4 +201,172 @@
     width: 150px;
     display: flex;
     justify-content: space-around;
+}
+
+/* Content */
+#content{
+    grid-row: 2/3;
+    padding: 50px 130px 90px 130px;
+    grid-template-rows: auto 385px 460px;
+}
+
+/* content top */
+#content .content--top{
+    grid-row: 1/2;
+}
+
+/* content top 1 */
+.img_share{
+    width: 20px;
+    height: 20px;
+}
+
+.top--menu .menu--content{
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    color: #979BA6;
+}
+
+.menu--content li{
+    padding-right: 5px;
+}
+
+.top--menu li:hover{
+    color: #000;
+}
+
+.content--top .text--pro{
+    font-size: 48px;
+    font-weight: bold;
+}
+
+.content--top .top--rating{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.top--rating .rating--left{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 220px;
+}
+
+.rating--left .text_42D{
+    font-weight: bold;
+}
+
+.rating--left .text_99_reviews{
+    color: #979BA6;
+}
+
+.top--rating .rating--right{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 160px;
+}
+
+.rating--right .right1{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 70px;
+}
+
+.rating--right .right2{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 65px;
+}
+
+/* content phan top 2 */
+.top2{
+    display: flex;
+    padding-top: 10px;
+}
+
+.img1{
+    padding-right: 16px;
+}
+
+.img24{
+    padding-right: 16px;
+}
+
+.img2, .img3{
+    padding-bottom: 16px;
+}
+
+/* content top 3 */
+.top3{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.left_text{
+    padding-top: 40px;
+    padding-bottom: 33px;
+}
+
+.text1{
+    font-weight: bold;
+    font-size: 24px;
+    padding-bottom: 12px;
+}
+
+.text2{
+    font-size: 14px; 
+    line-height: 22px;
+}
+
+.left_element{
+    display: flex;
+    flex-direction: column;
+}
+
+.element_1, .element_2, .element_3{
+    display: flex;
+    align-items: center;
+    padding-bottom: 18px;
+}
+
+.elemet_img{
+    padding-right: 8px;
+}
+
+.text_free{
+    padding-right: 64px;
+}
+
+.text_made{
+    padding-right: 63px;
+}
+
+.text_100{
+    padding-right: 48px;
+}
+
+.top3 .top3_right{
+    padding-left: 76px;
+}
+
+.top3_right .color, .size, .number{
+    width: 300px; 
+    height: 36px;
+}
+
+#content .content--center{
+    grid-row: 2/3;
+    width: 385px;
+}
+
+#content .content--bot{
+    grid-row: 3/4;
+    width: 460px;
 }
